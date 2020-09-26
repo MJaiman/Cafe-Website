@@ -1,0 +1,159 @@
+body {
+    display: none;
+}
+/* /* #navbar{
+
+} */
+
+/* #home{
+    padding: 0px 200px;
+    height: 585px;
+}
+#home::before{
+    height:585px;
+}
+#about p{
+    font-size: 0.8rem;
+
+}
+#about h3{
+    font-size: 1.5rem;
+}
+#chef .box{
+   
+    padding: 10px;
+    margin: 12px;
+    width: 370px;
+    height: 300px;
+}
+#chef .box img {
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+}
+#chef {
+    margin: 34px;
+    display: flex;
+    /* flex-direction: column; */
+    /* padding-left: 340px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#menu .boxx img {
+    height: 300px;
+    width: 370px;
+    margin: auto;
+    display: block;
+    border: 2px solid coral;
+    border-radius: 20px;
+}
+#menu-container{
+    height: 1445px;
+}
+.slideshow {
+    padding-left: 0px;
+    margin-top: 10px;
+}
+#one {
+    height: 300px;
+    width: 800px;
+
+}
+#two {
+    height: 300px;
+    width: 800px;
+    
+}
+#three {
+    height: 300px;
+    width: 800px;
+    
+}
+#contact {
+    height: 600px;
+    padding-top: 13px;
+    background-color: #eeeeee;
+}
+#contact-box {
+    display: flex;
+    padding-left: 0px;
+    padding-bottom: 34px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.mapouter {
+    text-align: right;
+    height: 100%;
+    width: 311px;
+    border-radius: 20px;
+    border: 2px solid sandybrown;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 100%;
+    width: 310px;
+}
+textarea, input {
+    padding: 0.5rem;
+    width: 355px;
+    border: 2px solid #efeeee;
+    background-color: #f9f7d9;
+    opacity: 1;
+}
+#message {
+    margin: 0px;
+    width: 355px;
+    height: 15px;
+}
+.mit {
+    width: 370px;
+    border: 2px solid #efeeee;
+    background-color: #ffe78f;
+    padding-bottom: 18px;
+    font-size: 0.9rem;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+#contact-box form {
+    width: 375px;
+    border: 2px solid sandybrown;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 0px;
+    height: 275px;
+}
+.form-group {
+    padding-bottom: 0px;
+    background-color: transparent;
+}
+#contact-box label {
+    font-size: 0.7rem;
+}
+@media(max-width: 1000px){
+    #about{
+        height: 335px;
+    }
+    #about h3{
+        font-size: 1.5rem;
+    }
+    #about p{
+        font-size: 0.8rem;
+    }
+    #image{
+        height: 200px;
+    }
+    #image imp {
+        width: 370px;
+        height: 100%;
+
+    }
+    div#image{
+        height: 250px;
+    }
+    #image img {
+        width: 370px;
+    }
+}   */

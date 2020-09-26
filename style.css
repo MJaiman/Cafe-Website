@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    font-family:Courgette, monospace;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#navbar ul{
+    display: flex;
+     margin-left: 0px;
+    padding-top: 20px;
+    font-size: 1.5rem; 
+    padding-left: 0px;
+}
+#title{
+    color: white;
+    margin-left: 0px;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    top:0;
+    height:100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.4
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: aqua;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 652px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home::before{
+    content:"";
+    background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    /* background-image: url("https://images.getbento.com/accounts/f7efa3ac70fc351a1aa21cbd6bbe24c6/media/images/26723Bresca_Interior_bar_Rey_Lopez_preview.jpeg?w=1200&fit=crop&auto=compress,format&h=600"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    height:100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.9
+}
+#home h2{
+    color:black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;;
+    border: 1px solid white;
+    border-radius: 10px 20px;
+    padding: 5px;
+    box-shadow: 5px 10px wheat;
+    font-size: 2.0rem;
+    /* font-family:Yanone Kaffeesatz, monospace; */
+    font-family:Zilla Slab, monospace;
+    background-color:whitesmoke;
+    opacity: 0.7;
+     z-index:-1; 
+}
+#home p{
+    color:black;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family:Grandstander, monospace;
+    border: 1px solid white;
+    border-radius: 10px 20px;
+    padding: 5px;
+    background-color:whitesmoke;
+    opacity: 0.7;
+    
+  }
+.btn{
+    margin-top: 25px;
+    padding: 10px 10px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color:black;
+    font-size: 1.2rem;
+    border-radius: 10px 20px;
+    opacity: 0.8;
+    
+}
+.btn:hover{
+    color: aqua;
+}
+#about{
+    /* position: relative; */
+    margin: 0px;
+    background-color: #f4f4f4;
+    height: 410px;
+    display: flex;
+    padding-left:15px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://images.getbento.com/accounts/f7efa3ac70fc351a1aa21cbd6bbe24c6/media/images/26723Bresca_Interior_bar_Rey_Lopez_preview.jpeg?w=1200&fit=crop&auto=compress,format&h=600") */
+}
+header{
+    font-size: 0.8rem;
+    color: grey;
+    margin-top:0px;
+    padding-top: 30px;
+}
+#about h3{
+     margin-top: 10px; 
+    font-size: 2.2rem;
+
+}
+#about p{
+    font-size: 1.1rem;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+#image{
+    margin-right: 0;
+    border: 2px solid sandybrown;
+    padding: 6px;
+    border-radius: 10px;
+    height: 305px;
+}
+#image img{
+    width:454px ;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.center{
+    text-align: center;
+    padding-top:15px ;
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 0px;
+    margin-top: 8px;
+    color: #3c3535;
+}
+#chef-container h3{
+    font-size: 2rem;
+    padding-top: 15px;
+}
+#chef-container p{
+    font-size: 1rem;
+    color: grey;
+}
+#chef .box p{
+    text-align: center;
+    color: #f73535;
+}
+#chef{
+    margin:34px;
+    display: flex;
+
+}
+#chef .box{
+    border: 2px solid black;
+    border-radius:15px 25px 56px;
+    padding: 16px;
+    margin: 21px;
+    background-color: #efeeee;
+}
+#chef .box img{
+    height: 370px;
+    width: 352px;
+    margin: auto;
+    display: flex;
+}
+#menu-container{
+    height:1310px;
+    background-color: azure;
+}
+#menu-container h3{
+    font-size: 2rem;
+    padding-top: 8px;
+}
+#menu-container p{
+    font-size: 0.8rem;
+    color: grey;
+}
+#menu{
+    margin-left: 60px;
+    display: flex;
+    padding-top: 35px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#menu .boxx{
+    padding: 6px;
+    margin: 7px;
+    background-color: cornsilk;
+    border-radius: 20px;
+}
+#menu .boxx img{
+    height: 376px;
+    width: 380px;
+    margin: auto;
+    display: block;
+    border: 2px solid coral;
+    border-radius: 20px;
+}
+.mySlides {
+    display:none;
+
+}
+.slideshow{
+    width: 700px;
+    padding-left: 107px;
+    margin-top: 10px;
+}
+#one{
+    height: 350px;
+    width: 1000px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#two{
+    height: 350px;
+    width: 1000px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#three{
+    height: 350px;
+    width: 1000px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#contact{
+    height: 600px;
+    padding-top: 30px;
+    background-color: #eeeeee;
+}
+#contact-box{
+    display: flex;
+    padding-left:123px ;
+    padding-bottom: 34px;
+    margin-top: 40px;
+}
+textarea,
+input{
+    padding: 0.5rem;
+    width: 415px;
+    border: 2px solid #efeeee;
+    background-color:#f9f7d9 ;
+    opacity: 1;
+    
+}
+#contact-box form{
+    width:435px;
+    border: 2px solid sandybrown;
+    padding: 10px;
+    border-radius: 15px;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    
+}
+#message{
+    margin: 0px;
+    width:412px;
+    height:42px;
+}
+.mapouter{
+    border: 2px solid sandybrown;
+    border-radius: 20px;
+    padding: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+.mapouter{text-align:right;
+    height:372px;width:536px;
+    border-radius: 20px;border: 2px solid sandybrown;
+}
+    .gmap_canvas {overflow:hidden;
+        background:none!important;
+        height:372px;width:536px;
+    }
+form{
+    /* border: 2px solid black;
+    border-radius:10px 20px; */
+    display: block;
+    margin: auto;
+}
+::-webkit-input-placeholder { color:#00b7c2; text-transform: uppercase; }
+::-moz-placeholder { color: #00b7c2; text-transform: uppercase; }
+:-ms-input-placeholder { color: #00b7c2; text-transform: uppercase; }
+.mit{
+    width: 433px;
+    border: 2px solid #efeeee;
+    background-color:#ffe78f ;
+    padding-bottom: 18px;
+    font-size: 1.3rem;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.mit:hover{
+    color: orangered;
+    color: #fff;
+    background: #f2745f;
+    cursor: pointer;
+}
+.form-group{
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+#more-info{
+    height:446px;
+    margin-top: 0px;
+    background-color: azure;
+    padding-top: 15px;
+    
+}
+#info-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0px;
+    margin-top: 15px;
+   
+}
+.info{
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #fabea7;
+    border-radius: 10px; */
+    margin: 20px;
+    height:350px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.info:hover {
+    /* cursor: pointer; */
+    box-shadow: 10px 10px 40px 20px #000;
+border-radius:20px;
+}
+
+.info p{
+    margin-top: 65px;
+    padding-left: 28px;
+    font-size: 1.4rem;
+    
+}
+.info h3{
+    text-align: center;
+    padding-right: 20px;
+    margin-top: 30px;
+    
+}
+#time{
+    background-image: url("cafehours.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    border-radius:20px ;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color:  #eeeeee;
+    opacity: 0.6;
+}
+footer a{
+    color: #f2745f;
+    font-size: 1.2rem;
+}
+#madeby img {
+    height: 100%;
+    width: 95%;
+    margin: 5px;
+    border-radius: 20px;
+}
+  .trainers-nav {
+        width: 100%;
+    }
+    
+    .trainers-ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    .trainers-ul li {
+        margin: 10px 10px;
+    }
+.orange{
+ padding-left:65px;
+  font-size:0.8rem;
+}
+#madeby span{
+   align-items: center;
+   justify-content: center;
+}  
